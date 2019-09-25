@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 25px;
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+input[type="text"]{
+	border: 0;
+}
+section{
+	padding: 30px 0;
+}
+section:nth-child(1){
+padding: 100px 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+span{
+	color: #0652DD;
+}
+
+th,td{
+  color: #fff;
+}
+header{
+	position: sticky;
+	top: 0;
+	z-index: 111111;
+}
+
+
+.welcome h1 {
+  text-transform: capitalize;
+  font-weight: 900
+}
+
+
+.main-header{
+	height: 100%;
+	    background: #264e98;
+    padding: 10px 0;
+}
+@media only screen and (max-width: 768px){
+  .main-header{
+    display: none;
+  }
+}
+.logo h2{
+	font-size: 35px;
+	color: #000;
+}
+.logo span{
+	color: #fff;
+}
+.main-menu ul{
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.main-menu ul li{
+	float: left;
+    list-style: none;
+}
+.main-menu ul li a{
+	display: block;
+	color: #fff;
+	padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 1s;
+}
+.main-menu ul li a:hover{
+	background-color: #fff;
+	color: #000; 
+}
+.resume a{
+  text-decoration:none;
+
+}
+.resume h4{}
+.about-me{
+	width: 90%;
+	}
+.about-title{
+  position: relative;
+  font-weight: 900
+
+}
+.about-title::before{
+ position: absolute;
+ content: "";
+ height: 1px;
+ width: 100%;
+ background: #0652DD;
+ top: 50px;
+ left: 0;
+
+}
+.about-title::after{
+ position: absolute;
+ content: "";
+ height: 1px;
+ width: 100%;
+ background: #0652DD;
+ top: 52px;
+ left: 0;
+
+}
+.about-title h2
+{
+	margin-bottom: 20px;
+    background-color: #264e98;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.about-me p{
+	text-align: justify;
+}
+.my-picture{
+   padding-top: 40px;
+   margin-left: 0px; 
+}
+.social-icon{
+	margin: 0;
+	padding: 0;
+}
+.social-icon li{
+  float: left;
+}
+.social-icon li a{
+      display: block;
+    padding: 0px 4px;
+    font-size: 30px;
+    transition: all 1s;
+    text-align: center;
+}
+.my-picture img{
+	width: 100%;
+	height: 100%;
+}
+.skill{
+  
+}
+.skill-title{
+	 position: relative;
+	 margin-bottom: 30px;
+	text-transform:capitalize;
+}
+.skill-title:before{
+   content: "";
+   position: absolute;
+   height: 1px;
+   width: 100%;
+   background-color: #0652DD;
+   top: 45px;
+   left: 0;
+}
+.skill-title:after{
+   content: "";
+   position: absolute;
+   height: 1px;
+   width: 100%;
+   background-color: #0652DD;
+   top: 50px;
+   left: 0;
+}
+.skill-title h2{
+   margin-bottom: 20px;
+    background-color: #0652dd;
+    color: #fff;
+    padding: 5px 20px;
+
+}
+.primary-skill{
+   background-color: #222;
+   height: 100%;
+   padding: 10px;
+}
+.primary-skill h2{
+	  padding-left: 50px;
+    color: #fff
+}
+.secondary-skill{
+   background-color: #111;
+   height: 100%;
+    padding: 10px;
+}
+.secondary-skill h2{
+	  padding-left: 45px;
+    color: #fff
+}
+
+.skill-ul li{
+	padding: 5px 50px;
+	display: block;
+	position: relative;
+  color: #fff
+}
+.other{
+	background-color: #111;
+}
+.single-portfolio{
+	position: relative;
+    border: 1px solid #555;
+    margin-bottom: 30px;
+    background-color: #0b1746;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+.single-portfolio img{
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    transform: scale(1);
+    transition: all .5s;
+}
+.single-portfolio h4{
+    padding-left: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px !important;
+    padding-top: 13px;
+    font-size: 20px;
+}
+.project-link{
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #0B1746;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    opacity: 0;
+    transition: all .5s;
+}
+.single-portfolio:hover .project-link{
+  opacity: 1;
+    transition: all .5s;
+}
+.single-portfolio:hover img{
+  transform: scale(.9);
+  transition: all .5s;
+}
+.single-portfolio a{
+  text-decoration: none;
+}
+.portfolio-box span i{
+	
+	font-size: 14px;
+}
+.project-info{
+	display: none;
+}
+.client{
+	position: relative;
+	margin-bottom: 30px;
+}
+.client::before{
+	    content: "";
+	   
+    position: absolute;
+    height: 1px;
+    width: 20%;
+    background-color: #0652DD;
+    left: 40%;
+    top: 46px;
+}
+.client::after{
+	  content: "";
+	display: inline-block;
+    position: absolute;
+    height: 1px;
+    width: 20%;
+    background-color: #0652DD;
+    left: 40%;
+    top: 50px;
+}
+.border-line{
+	position: relative;
+}
+
+.border-line::before{
+	    content: "";
+	   
+    position: absolute;
+    height: 1px;
+    width: 20%;
+    background-color: #0652DD;
+    left: 40%;
+    top: 46px;
+}
+.border-line::after{
+	  content: "";
+	display: inline-block;
+    position: absolute;
+    height: 1px;
+    width: 20%;
+    background-color: #0652DD;
+    left: 40%;
+    top: 50px;
+}
+.load-btn{
+	position: absolute;
+    left: 40%;
+    width: 22%;
+    border-radius: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0652DD;
+}
+a.load-btn{
+    color: #fff;
+}
+.submit-btn{
+	padding:20px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.contact-info{
+	background-color: #ddd;
+    padding: 10px 24px;
+}
+.contact-ul li{
+	padding: 5px 0;
+	font-size: 17px;
+}
+
+.footer{
+	background-color: #0652DD;
+}
+.footer-text p{
+	padding-top:10px;
+  color: #fff;
+}
+.academy-course table th{
+  white-space: nowrap;
+  color: #fff
+}
+.academy-course table tbody td{
+  color: #fff
+}
