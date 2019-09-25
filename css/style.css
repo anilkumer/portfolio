@@ -26,6 +26,7 @@ ul{
 }
 ul li{
 	list-style: none;
+	color:#000;
 }
 span{
 	color: #0652DD;
