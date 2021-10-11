@@ -20,6 +20,9 @@ padding: 100px 0;
 a{
 	text-decoration: none;
 }
+p {
+	color: #fff;
+}
 ul{
 	margin: 0;
 	padding: 0;
